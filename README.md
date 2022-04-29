@@ -1,6 +1,6 @@
-# Simple Bulk Mailer
+# Mass Mailer
 
-A simple massmailer to send mails in bulk to lots of users at once.
+A simple mass-mailer to send mails in bulk to lots of users at once.
 
 ## Steps to start using mass mailer
 
@@ -11,7 +11,7 @@ A simple massmailer to send mails in bulk to lots of users at once.
 $ pip install -r requirements.txt
 ```
 
-- Add a file named `config.py ` in following format
+- Add a file named `config.py` in following format
 
 ```
 sender_email = "xxxx@gmail.com"
@@ -23,4 +23,4 @@ sender_password = "xxxxxx"
 - Edit `message.py` according to your needs. A sample message has been provided, you don't have to use that.<br>
   NOTE: The message should be in HTML format
 
-After all these steps, mass maier is ready to be used!!
+After all these steps, mass mailer is ready to be used!!
